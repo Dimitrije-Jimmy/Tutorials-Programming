@@ -1,0 +1,41 @@
+Machine learning is when you feed data into a machine (mathematical data model) 
+ and get results out based on some models
+ one example would be feeding pictures of cats and dogs and labelling them
+ when the machine learns, we can give it a new never before seen picture of a dog or cats
+ and it'll be able to identify unclassified pictures whether it's a dog or a cat
+ no telling the computer "a cat has pointy ears"
+
+
+3 major types of machine learning:
+1.) Supervised learning
+classic example is the dog and cat
+whenever we have already classified data / data that already contains the solution
+we're giving supervision to the model so that it figures out what it's looking at
+
+2.) Unsupervised learning
+we provide data that isn't classified, 
+for example we look at a graph of weight in respect to height and we have data points on the graph
+the data points aren't classified, no saying "these are skinny" "these are overweight"
+and we tell the model "find some clusters/patterns"
+it can't tell us whether it's an overweight group but it can tell us this is one clusters
+if we labeled the dots for which are overweight which are skinny that would become a supervised moder
+
+3.) Reinforcement
+entirelly different, it works with agents and environments
+we have the ground as an environment and a person as an agent 
+we give the model the goal of the agent/person jumping as high as possible
+we don't tell the model how to perform the action we just reward it for performing it
+we start with random actions, for walking left to right you get 0 points
+if you go down to the group you receive -2 points
+if you jump and reach a greater height you're rewarded moder
+reinforcement learning has a lot to do with genetic algorithms and evolution
+
+
+Libaries:
+ScikitLearn - for all the traditional ML algorithms, K-nearest neighbors classification, 
+regression, support vector machines, clusterring, etc..
+TensorFlow - deep learning and neural networks, TensorFlow sometimes not available with latest Python version
+
+
+
+
